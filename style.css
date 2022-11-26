@@ -151,7 +151,7 @@ ul {
 /* Header */
 
 header {
-    padding: 60px var(--padding-inline-section);
+    padding: 50px var(--padding-inline-section) 40px;
 }
 
 .header-section {
@@ -175,3 +175,28 @@ header {
 .get-started-btn {
     margin-top: 25px;
 }
+
+/* Companies Section */
+
+.companies-header {
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.logos {
+    margin: 25px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 45px;
+}
+
+#Godaddy {
+    height: 32px;
+}
+
+/* Features Section */
+
