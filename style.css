@@ -245,3 +245,43 @@ header {
 }
 
 /* big features section */
+
+.big-fetures {
+    padding: 0 var(--padding-inline-section);
+}
+
+.big-features-1 {
+    margin-top: 70px;
+}
+
+.big-feature-container {
+    gap: 50px;
+}
+
+.big-feature-left {
+    max-width: 50%;
+}
+
+.big-feature-left img {
+    width: 95%;
+}
+
+.big-feature-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 40%;
+}
+
+#chartmogul {
+    width: 105px;
+}
+
+.big-features-h3 {
+    font-size: 2rem;
+}
+
+.big-features-pre-text {
+    font-weight: 600;
+    color: var(--primary-text-color);
+}
