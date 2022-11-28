@@ -285,3 +285,67 @@ header {
     font-weight: 600;
     color: var(--primary-text-color);
 }
+
+/* example section */
+
+.example {
+    margin-top: 80px;
+}
+
+.example-header {
+    text-align: center;
+}
+
+.example-heading-h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.see-more-example-button {
+    margin-top: 15px;
+}
+
+.examples-area {
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.examples-card {
+    width: 23.7%;
+    position: relative;
+    min-height: 327px;
+    transition: 0.2s ease-out;
+}
+
+.examples-card:hover {
+    box-shadow: 0 0 10px #888888;
+}
+
+.card-text {
+    font-size: 1.3rem;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    color: #FFFFFF;
+}
+
+.example-card-1 {
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/34.jpeg);
+    background-size: cover;
+}
+
+.example-card-2 {
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/35.jpeg);
+    background-size: cover;
+}
+
+.example-card-3 {
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/36.jpeg);
+    background-size: cover;
+}
+
+.example-card-4 {
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/37.jpeg);
+    background-size: cover;
+}
