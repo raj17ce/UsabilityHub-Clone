@@ -331,21 +331,40 @@ header {
 }
 
 .example-card-1 {
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/34.jpeg);
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(assets/34.jpeg);
     background-size: cover;
 }
 
 .example-card-2 {
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/35.jpeg);
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(assets/35.jpeg);
     background-size: cover;
 }
 
 .example-card-3 {
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/36.jpeg);
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(assets/36.jpeg);
     background-size: cover;
 }
 
 .example-card-4 {
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/37.jpeg);
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(assets/37.jpeg);
     background-size: cover;
+}
+
+/* CTA section */
+
+.cta {
+    margin-top: 40px;
+    background-color: #183b54;
+    padding: 100px var(--padding-inline-section);
+}
+
+.cta-container {
+    flex-direction: column;
+    gap: 30px;
+    color: #FFFFFF;
+}
+
+.cta-container p {
+    color: #FFFFFF;
+    margin-top: 20px;
 }
