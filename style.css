@@ -81,6 +81,7 @@ ul {
     padding: 10px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
+    text-align: center;
 }
 
 .primary-button:hover {
@@ -252,7 +253,7 @@ header {
 
 /* big features section */
 
-.big-fetures {
+.big-features {
     padding: 0 var(--padding-inline-section);
 }
 
@@ -277,6 +278,10 @@ header {
     align-items: flex-start;
     gap: 10px;
     max-width: 40%;
+}
+
+#second-big-feature {
+    flex-direction: row-reverse;
 }
 
 #chartmogul {
@@ -423,4 +428,5 @@ footer {
     padding: 20px;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
