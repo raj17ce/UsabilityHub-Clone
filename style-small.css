@@ -1,0 +1,79 @@
+/* Media Query for small devices like small-screen mobile phones, etc */
+
+@media screen and (max-width: 479px) {
+
+    :root {
+        --padding-inline-section: 15px;
+    }
+
+    html {
+        font-size: 13px;
+    }
+
+    /* features section */
+    
+    .features {
+        padding: 30px var(--padding-inline-section) 0;
+    }
+
+    .features-card {
+        min-width: 100%;
+    }
+
+    /* big feature section */
+
+    .big-features-1 {
+        margin-top: 40px;
+    }
+
+    /* examples section */
+
+    .example {
+        margin-top: 30px;
+    }
+
+    .examples-card {
+        width: 100%;
+        height: 188px;
+    }
+
+    /* CTA section */
+
+    .cta {
+        margin-top: 40px;
+        padding: 50px var(--padding-inline-section);
+    }
+
+    /* footer section */
+
+    footer {
+        padding: 40px 0;
+        margin: 0 auto;
+    }
+
+    .footer-left {
+        max-width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .footer-right {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .link-column {
+        align-items: center;
+    }
+
+    .link-column h4 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+}
