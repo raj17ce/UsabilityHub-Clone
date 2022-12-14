@@ -20,6 +20,7 @@
         top: 100%;
         width: 100%;
         padding-block: 30px;
+        transition: 0.2s ease-out;
     }
 
     .navlinks.active {
