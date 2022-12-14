@@ -62,14 +62,17 @@
     }
 
     .footer-right {
+        margin-inline: auto;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
-        gap: 40px;
+        gap: 30px;
+        max-width: 100%;
     }
 
     .link-column {
         align-items: center;
+        justify-content: center;
     }
 
     .link-column h4 {
