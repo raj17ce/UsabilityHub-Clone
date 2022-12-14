@@ -14,7 +14,24 @@
     }
 
     .navlinks {
-        display: none;
+        position: absolute;
+        background-color: #FFFFFF;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 30px;
+    }
+
+    .navlinks.active {
+        left: 0;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .navlinks ul{
+        flex-direction: column;
     }
 
     /* example section*/

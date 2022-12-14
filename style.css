@@ -80,8 +80,9 @@ ul {
     color: #ffffff !important;
     padding: 10px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
-    transition: 0.2s ease-out;
+    min-width: 110px;
     text-align: center;
+    transition: 0.2s ease-out;
 }
 
 .primary-button:hover {
@@ -129,6 +130,7 @@ ul {
 .main-nav {
     justify-content: space-between;
     margin-top: 25px;
+    position: relative;
 }
 
 .hover-link {
