@@ -1,0 +1,47 @@
+/* Media Query for large devices like tablet, Ipad, etc */
+
+@media screen and (max-width: 991px) {
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    /* Nav-Bar */
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    /* Example Section*/
+
+    .examples-area {
+        gap: 20px;
+    }
+
+    .examples-card {
+        width: calc(50% - 10px);
+        height: 188px;
+    }
+
+    /* CTA section */
+
+    .cta {
+        padding-block: 80px;
+    }
+
+    /* Footer Section*/
+
+    .footer-container {
+        gap: 100px;
+        flex-wrap: wrap;
+    }
+
+    .footer-right {
+        gap: 100px;
+    }
+}

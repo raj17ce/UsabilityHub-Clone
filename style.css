@@ -65,6 +65,7 @@ ul {
     max-width: 1200px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section) ;
+    overflow: hidden;
 }
 
 .flex {
@@ -152,6 +153,10 @@ ul {
     margin: 0 -12px;
 }
 
+.nav-toggle {
+    display: none;
+}
+
 /* Header */
 
 header {
@@ -164,7 +169,7 @@ header {
 }
 
 .header-right img {
-    width: 600px;
+    width: 100%;
 }
 
 .header-left {
@@ -189,7 +194,8 @@ header {
 
 .logos {
     margin: 25px 0;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -308,12 +314,13 @@ header {
 .examples-area {
     margin-top: 30px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .examples-card {
     width: 23.7%;
     position: relative;
-    min-height: 327px;
+    height: 327px;
     transition: 0.2s ease-out;
 }
 
@@ -379,7 +386,7 @@ footer {
 .footer-container {
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 150px;
+    gap: 130px;
 }
 
 .footer-left {
@@ -388,7 +395,7 @@ footer {
 .footer-right {
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 150px;
+    gap: 125px;
 }
 
 .link-column {
